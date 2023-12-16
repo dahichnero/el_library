@@ -1,0 +1,93 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ElLibrary\\wwwroot\\Images\\banner.png",
+      "PackagePath": "staticwebassets\\Images\\banner.png"
+    },
+    {
+      "Id": "D:\\ElLibrary\\wwwroot\\Images\\books\\book1.PNG",
+      "PackagePath": "staticwebassets\\Images\\books\\book1.PNG"
+    },
+    {
+      "Id": "D:\\ElLibrary\\wwwroot\\Images\\books\\book2.PNG",
+      "PackagePath": "staticwebassets\\Images\\books\\book2.PNG"
+    },
+    {
+      "Id": "D:\\ElLibrary\\wwwroot\\Images\\books\\book3.PNG",
+      "PackagePath": "staticwebassets\\Images\\books\\book3.PNG"
+    },
+    {
+      "Id": "D:\\ElLibrary\\wwwroot\\Images\\books\\book4.PNG",
+      "PackagePath": "staticwebassets\\Images\\books\\book4.PNG"
+    },
+    {
+      "Id": "D:\\ElLibrary\\wwwroot\\Images\\books\\book5.PNG",
+      "PackagePath": "staticwebassets\\Images\\books\\book5.PNG"
+    },
+    {
+      "Id": "D:\\ElLibrary\\wwwroot\\Images\\door.png",
+      "PackagePath": "staticwebassets\\Images\\door.png"
+    },
+    {
+      "Id": "D:\\ElLibrary\\wwwroot\\Images\\reg_bg.JPG",
+      "PackagePath": "staticwebassets\\Images\\reg_bg.JPG"
+    },
+    {
+      "Id": "D:\\ElLibrary\\wwwroot\\books\\book1.pdf",
+      "PackagePath": "staticwebassets\\books\\book1.pdf"
+    },
+    {
+      "Id": "D:\\ElLibrary\\wwwroot\\books\\book2.pdf",
+      "PackagePath": "staticwebassets\\books\\book2.pdf"
+    },
+    {
+      "Id": "D:\\ElLibrary\\wwwroot\\books\\book3.pdf",
+      "PackagePath": "staticwebassets\\books\\book3.pdf"
+    },
+    {
+      "Id": "D:\\ElLibrary\\wwwroot\\books\\book4.pdf",
+      "PackagePath": "staticwebassets\\books\\book4.pdf"
+    },
+    {
+      "Id": "D:\\ElLibrary\\wwwroot\\books\\book5.pdf",
+      "PackagePath": "staticwebassets\\books\\book5.pdf"
+    },
+    {
+      "Id": "D:\\ElLibrary\\wwwroot\\styles\\add.css",
+      "PackagePath": "staticwebassets\\styles\\add.css"
+    },
+    {
+      "Id": "D:\\ElLibrary\\wwwroot\\styles\\book.css",
+      "PackagePath": "staticwebassets\\styles\\book.css"
+    },
+    {
+      "Id": "D:\\ElLibrary\\wwwroot\\styles\\login.css",
+      "PackagePath": "staticwebassets\\styles\\login.css"
+    },
+    {
+      "Id": "D:\\ElLibrary\\wwwroot\\styles\\main.css",
+      "PackagePath": "staticwebassets\\styles\\main.css"
+    },
+    {
+      "Id": "D:\\ElLibrary\\wwwroot\\styles\\registration.css",
+      "PackagePath": "staticwebassets\\styles\\registration.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ElLibrary.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ElLibrary.props",
+      "PackagePath": "build\\ElLibrary.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ElLibrary.props",
+      "PackagePath": "buildMultiTargeting\\ElLibrary.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ElLibrary.props",
+      "PackagePath": "buildTransitive\\ElLibrary.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

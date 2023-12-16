@@ -1,0 +1,37 @@
+﻿@using ElLibrary.Domain.Entities
+@using ElLibrary.ViewModels;
+@model DeleteBookViewModel
+<link rel="stylesheet" href="~/styles/add.css" type="text/css" runat="server" media="screen" />
+<div class="book-form">
+    <form method="post" enctype="multipart/form-data">
+        <h1>Изменение книги</h1>
+        <div class="form-element">
+            <input asp-for="Id" type="hidden" />
+            <label asp-for="Title"></label>
+            <label>@Model.Title</label>
+        </div>
+        <div class="form-element">
+            <label asp-for="Author"></label>
+            <label>@Model.Author</label>
+        </div>
+        <div class="form-element">
+            <label asp-for="PageCount"></label>
+            <label>@Model.PageCount</label>
+        </div>
+        <div class="form-element">
+            <label asp-for="CategoryId"></label>
+            <label>@Model.Category.Name</label>
+        </div>
+        <p>Вы точно хотите удалить книгу?</p>
+        <div class="buttons">
+            <input type="button" id="backbutton" value="Назад" />
+            <input type="submit" value="Удалить" />
+        </div>
+    </form>
+</div>
+<script>
+    let backbutton = document.querySelector('#backbutton');
+    backbutton.onclick = () => {
+        window.location = "/books/index";
+    };
+</script>

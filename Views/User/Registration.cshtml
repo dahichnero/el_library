@@ -1,0 +1,35 @@
+﻿@model RegistrationViewModel
+@{
+	Layout=null;
+}
+@using ElLibrary
+@using ElLibrary.ViewModels
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/styles/registration.css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <form method="post">
+                <h1>Электронная библиотека</h1>
+                <h2>Регистрация</h2>
+                <label asp-for="Fullname">Полное имя:</label>
+                <input type="text" asp-for="Fullname" />
+                <label asp-for="Username">Имя пользователя:</label>
+                <input type="text" asp-for="Username" />
+                <label asp-for="Password">Пароль:</label>
+                <input type="password" asp-for="Password" />
+                <label asp-for="RepeatPassword">Повторите пароль:</label>
+                <input type="password" asp-for="RepeatPassword" />
+                <p>Или вы можете <a asp-controller="User" asp-action="Login">войти в систему</a></p>
+                <div asp-validation-summary="All" class="error-messages"></div>
+                <input type="submit" value="Зарегистрироваться" />
+            </form>
+        </div>
+    </div>
+</body>
+</html>

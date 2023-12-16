@@ -1,0 +1,604 @@
+2023-11-27 11:31:10.739 +05:00 [INF] User profile is available. Using 'C:\Users\st310-09\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-27 11:31:10.801 +05:00 [INF] Now listening on: http://localhost:5000
+2023-11-27 11:31:10.801 +05:00 [INF] Now listening on: https://localhost:5001
+2023-11-27 11:31:10.803 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-27 11:31:10.803 +05:00 [INF] Hosting environment: Production
+2023-11-27 11:31:10.803 +05:00 [INF] Content root path: C:\Users\st310-09\Desktop\ElLibrary\bin\Release\net6.0\publish\
+2023-11-27 11:31:31.191 +05:00 [INF] User profile is available. Using 'C:\Users\st310-09\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-27 11:31:31.250 +05:00 [INF] Now listening on: http://localhost:5000
+2023-11-27 11:31:31.250 +05:00 [INF] Now listening on: https://localhost:5001
+2023-11-27 11:31:31.252 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-27 11:31:31.252 +05:00 [INF] Hosting environment: Production
+2023-11-27 11:31:31.252 +05:00 [INF] Content root path: C:\Users\st310-09\Desktop\ElLibrary\bin\Release\net6.0\publish\
+2023-11-27 11:32:20.103 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2023-11-27 11:32:20.128 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-11-27 11:32:20.134 +05:00 [INF] AuthenticationScheme: Cookies was challenged.
+2023-11-27 11:32:20.137 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 302 0 - 36.7240ms
+2023-11-27 11:32:20.140 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/User/Login?ReturnUrl=%2F - -
+2023-11-27 11:32:20.144 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-27 11:32:20.155 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-27 11:32:20.173 +05:00 [INF] Executing ViewResult, running view Login.
+2023-11-27 11:32:20.250 +05:00 [INF] Executed ViewResult - view Login executed in 77.0043ms.
+2023-11-27 11:32:20.252 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/styles/login.css - -
+2023-11-27 11:32:20.252 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Login (ElLibrary) in 96.367ms
+2023-11-27 11:32:20.252 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-27 11:32:20.255 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/User/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 114.5245ms
+2023-11-27 11:32:20.261 +05:00 [INF] Sending file. Request path: '/styles/login.css'. Physical path: 'C:\Users\st310-09\Desktop\ElLibrary\bin\Release\net6.0\publish\wwwroot\styles\login.css'
+2023-11-27 11:32:20.262 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/styles/login.css - - - 200 1371 text/css 9.9557ms
+2023-11-27 11:32:21.441 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/door.png - -
+2023-11-27 11:32:21.455 +05:00 [INF] Sending file. Request path: '/images/door.png'. Physical path: 'C:\Users\st310-09\Desktop\ElLibrary\bin\Release\net6.0\publish\wwwroot\images\door.png'
+2023-11-27 11:32:21.455 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/door.png - - - 200 4084612 image/png 14.2635ms
+2023-11-27 11:32:21.458 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2023-11-27 11:32:21.459 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 404 0 - 1.3511ms
+2023-11-30 12:45:15.070 +05:00 [INF] User profile is available. Using 'C:\Users\st310-09\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-30 12:45:15.127 +05:00 [INF] Now listening on: http://localhost:5000
+2023-11-30 12:45:15.127 +05:00 [INF] Now listening on: https://localhost:5001
+2023-11-30 12:45:15.129 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-30 12:45:15.129 +05:00 [INF] Hosting environment: Production
+2023-11-30 12:45:15.129 +05:00 [INF] Content root path: C:\Users\st310-09\Desktop\ElLibrary\bin\Release\net6.0\publish\
+2023-11-30 12:45:28.394 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2023-11-30 12:45:28.418 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-11-30 12:45:28.423 +05:00 [INF] AuthenticationScheme: Cookies was challenged.
+2023-11-30 12:45:28.426 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 302 0 - 34.8228ms
+2023-11-30 12:45:28.431 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/User/Login?ReturnUrl=%2F - -
+2023-11-30 12:45:28.436 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 12:45:28.446 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 12:45:28.463 +05:00 [INF] Executing ViewResult, running view Login.
+2023-11-30 12:45:28.539 +05:00 [INF] Executed ViewResult - view Login executed in 75.3815ms.
+2023-11-30 12:45:28.540 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Login (ElLibrary) in 93.873ms
+2023-11-30 12:45:28.540 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 12:45:28.542 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/User/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 111.2037ms
+2023-11-30 12:45:28.721 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2023-11-30 12:45:28.722 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 404 0 - 1.6036ms
+2023-11-30 12:50:24.612 +05:00 [INF] Start app
+2023-11-30 12:50:26.167 +05:00 [WRN] Using an in-memory repository. Keys will not be persisted to storage.
+2023-11-30 12:50:26.168 +05:00 [WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2023-11-30 12:50:26.175 +05:00 [INF] Creating key {4ef8cff4-5f2f-4126-b31e-da7fbcca2712} with creation date 2023-11-30 07:50:26Z, activation date 2023-11-30 07:50:26Z, and expiration date 2024-02-28 07:50:26Z.
+2023-11-30 12:50:26.180 +05:00 [WRN] No XML encryptor configured. Key {4ef8cff4-5f2f-4126-b31e-da7fbcca2712} may be persisted to storage in unencrypted form.
+2023-11-30 12:50:26.193 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-30 12:50:26.193 +05:00 [INF] Hosting environment: Production
+2023-11-30 12:50:26.193 +05:00 [INF] Content root path: C:\Users\st310-09\Desktop\ElLibrary\bin\Release\net6.0\publish\
+2023-11-30 12:50:26.211 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/ - -
+2023-11-30 12:50:26.237 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-11-30 12:50:26.243 +05:00 [INF] AuthenticationScheme: Cookies was challenged.
+2023-11-30 12:50:26.248 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/User/Login?ReturnUrl=%2F - -
+2023-11-30 12:50:26.250 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/ - - - 302 - - 41.7784ms
+2023-11-30 12:50:26.253 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 12:50:26.262 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 12:50:26.279 +05:00 [INF] Executing ViewResult, running view Login.
+2023-11-30 12:50:26.333 +05:00 [ERR] An exception was thrown while deserializing the token.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The antiforgery token could not be decrypted.
+ ---> System.Security.Cryptography.CryptographicException: The key {b71f5d25-0851-446e-9ed3-f16961a4624b} was not found in the key ring. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.GetCookieTokenDoesNotThrow(HttpContext httpContext)
+2023-11-30 12:50:26.367 +05:00 [INF] Executed ViewResult - view Login executed in 86.4674ms.
+2023-11-30 12:50:26.368 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Login (ElLibrary) in 105.2375ms
+2023-11-30 12:50:26.368 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/styles/login.css - -
+2023-11-30 12:50:26.368 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 12:50:26.370 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/User/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 121.3361ms
+2023-11-30 12:50:26.412 +05:00 [INF] Sending file. Request path: '/styles/login.css'. Physical path: 'C:\Users\st310-09\Desktop\ElLibrary\bin\Release\net6.0\publish\wwwroot\styles\login.css'
+2023-11-30 12:50:26.413 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/styles/login.css - - - 200 1371 text/css 45.1557ms
+2023-11-30 12:50:26.413 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/images/door.png - -
+2023-11-30 12:50:26.426 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/favicon.ico - -
+2023-11-30 12:50:26.428 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/favicon.ico - - - 404 - - 1.4834ms
+2023-11-30 12:50:26.492 +05:00 [INF] Sending file. Request path: '/images/door.png'. Physical path: 'C:\Users\st310-09\Desktop\ElLibrary\bin\Release\net6.0\publish\wwwroot\images\door.png'
+2023-11-30 12:50:26.502 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/images/door.png - - - 200 4084612 image/png 88.7066ms
+2023-11-30 12:50:45.851 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/User/Login?ReturnUrl=%2F application/x-www-form-urlencoded 216
+2023-11-30 12:50:45.852 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 12:50:45.864 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ElLibrary.ViewModels.LoginViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 12:50:45.883 +05:00 [INF] Происходит вход
+2023-11-30 12:50:45.962 +05:00 [INF] Executed DbCommand (9ms) [Parameters=[@__username_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Fullname], [u].[Login], [u].[Password], [u].[Photo], [u].[RoleId], [u].[Salt]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__username_0
+2023-11-30 12:50:45.970 +05:00 [WRN] Неверные данные дя входа
+2023-11-30 12:50:45.972 +05:00 [INF] Executing ViewResult, running view Login.
+2023-11-30 12:50:45.975 +05:00 [INF] Executed ViewResult - view Login executed in 3.1771ms.
+2023-11-30 12:50:45.976 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Login (ElLibrary) in 111.0774ms
+2023-11-30 12:50:45.976 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 12:50:45.978 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/User/Login?ReturnUrl=%2F application/x-www-form-urlencoded 216 - 200 - text/html;+charset=utf-8 127.2287ms
+2023-11-30 12:50:46.746 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/User/Login?ReturnUrl=%2F application/x-www-form-urlencoded 206
+2023-11-30 12:50:46.746 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 12:50:46.746 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ElLibrary.ViewModels.LoginViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 12:50:46.750 +05:00 [INF] Происходит вход
+2023-11-30 12:50:46.750 +05:00 [WRN] Состояние модели не валидное
+2023-11-30 12:50:46.750 +05:00 [INF] Executing ViewResult, running view Login.
+2023-11-30 12:50:46.751 +05:00 [INF] Executed ViewResult - view Login executed in 1.439ms.
+2023-11-30 12:50:46.751 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Login (ElLibrary) in 5.4081ms
+2023-11-30 12:50:46.751 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 12:50:46.752 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/User/Login?ReturnUrl=%2F application/x-www-form-urlencoded 206 - 200 - text/html;+charset=utf-8 5.9647ms
+2023-11-30 12:50:51.430 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/User/Registration - -
+2023-11-30 12:50:51.430 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:50:51.431 +05:00 [INF] Route matched with {action = "Registration", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Registration() on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 12:50:51.432 +05:00 [INF] Executing ViewResult, running view Registration.
+2023-11-30 12:50:51.447 +05:00 [INF] Executed ViewResult - view Registration executed in 15.3502ms.
+2023-11-30 12:50:51.447 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Registration (ElLibrary) in 15.6427ms
+2023-11-30 12:50:51.447 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:50:51.447 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/User/Registration - - - 200 - text/html;+charset=utf-8 17.4934ms
+2023-11-30 12:50:51.452 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/styles/registration.css - -
+2023-11-30 12:50:51.453 +05:00 [INF] Sending file. Request path: '/styles/registration.css'. Physical path: 'C:\Users\st310-09\Desktop\ElLibrary\bin\Release\net6.0\publish\wwwroot\styles\registration.css'
+2023-11-30 12:50:51.453 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/styles/registration.css - - - 200 1281 text/css 1.1700ms
+2023-11-30 12:50:51.456 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/Images/reg_bg.JPG - -
+2023-11-30 12:50:51.582 +05:00 [INF] Sending file. Request path: '/Images/reg_bg.JPG'. Physical path: 'C:\Users\st310-09\Desktop\ElLibrary\bin\Release\net6.0\publish\wwwroot\Images\reg_bg.JPG'
+2023-11-30 12:50:51.592 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/Images/reg_bg.JPG - - - 200 8201508 image/jpeg 135.2835ms
+2023-11-30 12:51:15.311 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 267
+2023-11-30 12:51:15.312 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:15.315 +05:00 [INF] Route matched with {action = "Registration", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(ElLibrary.ViewModels.RegistrationViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 12:51:15.318 +05:00 [INF] Происходит регистрация
+2023-11-30 12:51:15.356 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__username_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Fullname], [u].[Login], [u].[Password], [u].[Photo], [u].[RoleId], [u].[Salt]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__username_0
+2023-11-30 12:51:15.359 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__username_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Fullname], [u].[Login], [u].[Password], [u].[Photo], [u].[RoleId], [u].[Salt]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__username_0
+2023-11-30 12:51:15.368 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Name]
+FROM [Roles] AS [r]
+WHERE [r].[Name] = N'client'
+2023-11-30 12:51:15.369 +05:00 [WRN] Не удалось зарегистрироваться
+2023-11-30 12:51:15.369 +05:00 [INF] Executing ViewResult, running view Registration.
+2023-11-30 12:51:15.370 +05:00 [INF] Executed ViewResult - view Registration executed in 0.8535ms.
+2023-11-30 12:51:15.370 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Registration (ElLibrary) in 54.9339ms
+2023-11-30 12:51:15.370 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:15.370 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 267 - 200 - text/html;+charset=utf-8 58.4603ms
+2023-11-30 12:51:18.189 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247
+2023-11-30 12:51:18.190 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:18.190 +05:00 [INF] Route matched with {action = "Registration", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(ElLibrary.ViewModels.RegistrationViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 12:51:18.190 +05:00 [INF] Происходит регистрация
+2023-11-30 12:51:18.190 +05:00 [WRN] Состояние модели не валидное
+2023-11-30 12:51:18.190 +05:00 [INF] Executing ViewResult, running view Registration.
+2023-11-30 12:51:18.191 +05:00 [INF] Executed ViewResult - view Registration executed in 0.8664ms.
+2023-11-30 12:51:18.191 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Registration (ElLibrary) in 1.3689ms
+2023-11-30 12:51:18.191 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:18.191 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247 - 200 - text/html;+charset=utf-8 2.0065ms
+2023-11-30 12:51:19.086 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247
+2023-11-30 12:51:19.087 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:19.087 +05:00 [INF] Route matched with {action = "Registration", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(ElLibrary.ViewModels.RegistrationViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 12:51:19.087 +05:00 [INF] Происходит регистрация
+2023-11-30 12:51:19.087 +05:00 [WRN] Состояние модели не валидное
+2023-11-30 12:51:19.087 +05:00 [INF] Executing ViewResult, running view Registration.
+2023-11-30 12:51:19.088 +05:00 [INF] Executed ViewResult - view Registration executed in 0.7881ms.
+2023-11-30 12:51:19.088 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Registration (ElLibrary) in 1.2512ms
+2023-11-30 12:51:19.088 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:19.088 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247 - 200 - text/html;+charset=utf-8 1.6887ms
+2023-11-30 12:51:19.550 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247
+2023-11-30 12:51:19.550 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:19.550 +05:00 [INF] Route matched with {action = "Registration", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(ElLibrary.ViewModels.RegistrationViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 12:51:19.550 +05:00 [INF] Происходит регистрация
+2023-11-30 12:51:19.550 +05:00 [WRN] Состояние модели не валидное
+2023-11-30 12:51:19.551 +05:00 [INF] Executing ViewResult, running view Registration.
+2023-11-30 12:51:19.551 +05:00 [INF] Executed ViewResult - view Registration executed in 0.6299ms.
+2023-11-30 12:51:19.551 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Registration (ElLibrary) in 1.0898ms
+2023-11-30 12:51:19.551 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:19.551 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247 - 200 - text/html;+charset=utf-8 1.5652ms
+2023-11-30 12:51:19.713 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247
+2023-11-30 12:51:19.713 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:19.713 +05:00 [INF] Route matched with {action = "Registration", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(ElLibrary.ViewModels.RegistrationViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 12:51:19.713 +05:00 [INF] Происходит регистрация
+2023-11-30 12:51:19.713 +05:00 [WRN] Состояние модели не валидное
+2023-11-30 12:51:19.714 +05:00 [INF] Executing ViewResult, running view Registration.
+2023-11-30 12:51:19.714 +05:00 [INF] Executed ViewResult - view Registration executed in 0.6291ms.
+2023-11-30 12:51:19.714 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Registration (ElLibrary) in 1.0782ms
+2023-11-30 12:51:19.714 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:19.714 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247 - 200 - text/html;+charset=utf-8 1.4866ms
+2023-11-30 12:51:19.905 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247
+2023-11-30 12:51:19.905 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:19.905 +05:00 [INF] Route matched with {action = "Registration", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(ElLibrary.ViewModels.RegistrationViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 12:51:19.906 +05:00 [INF] Происходит регистрация
+2023-11-30 12:51:19.906 +05:00 [WRN] Состояние модели не валидное
+2023-11-30 12:51:19.906 +05:00 [INF] Executing ViewResult, running view Registration.
+2023-11-30 12:51:19.906 +05:00 [INF] Executed ViewResult - view Registration executed in 0.5925ms.
+2023-11-30 12:51:19.906 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Registration (ElLibrary) in 1.0563ms
+2023-11-30 12:51:19.906 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:19.906 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247 - 200 - text/html;+charset=utf-8 1.4377ms
+2023-11-30 12:51:20.085 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247
+2023-11-30 12:51:20.085 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:20.085 +05:00 [INF] Route matched with {action = "Registration", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(ElLibrary.ViewModels.RegistrationViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 12:51:20.086 +05:00 [INF] Происходит регистрация
+2023-11-30 12:51:20.086 +05:00 [WRN] Состояние модели не валидное
+2023-11-30 12:51:20.086 +05:00 [INF] Executing ViewResult, running view Registration.
+2023-11-30 12:51:20.087 +05:00 [INF] Executed ViewResult - view Registration executed in 0.676ms.
+2023-11-30 12:51:20.087 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Registration (ElLibrary) in 1.1304ms
+2023-11-30 12:51:20.087 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:20.087 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247 - 200 - text/html;+charset=utf-8 1.6542ms
+2023-11-30 12:51:20.282 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247
+2023-11-30 12:51:20.282 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:20.282 +05:00 [INF] Route matched with {action = "Registration", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(ElLibrary.ViewModels.RegistrationViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 12:51:20.283 +05:00 [INF] Происходит регистрация
+2023-11-30 12:51:20.283 +05:00 [WRN] Состояние модели не валидное
+2023-11-30 12:51:20.283 +05:00 [INF] Executing ViewResult, running view Registration.
+2023-11-30 12:51:20.283 +05:00 [INF] Executed ViewResult - view Registration executed in 0.5098ms.
+2023-11-30 12:51:20.283 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Registration (ElLibrary) in 0.934ms
+2023-11-30 12:51:20.283 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:20.284 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247 - 200 - text/html;+charset=utf-8 1.4683ms
+2023-11-30 12:51:20.478 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247
+2023-11-30 12:51:20.478 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:20.478 +05:00 [INF] Route matched with {action = "Registration", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(ElLibrary.ViewModels.RegistrationViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 12:51:20.478 +05:00 [INF] Происходит регистрация
+2023-11-30 12:51:20.478 +05:00 [WRN] Состояние модели не валидное
+2023-11-30 12:51:20.478 +05:00 [INF] Executing ViewResult, running view Registration.
+2023-11-30 12:51:20.479 +05:00 [INF] Executed ViewResult - view Registration executed in 0.5964ms.
+2023-11-30 12:51:20.479 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Registration (ElLibrary) in 1.0316ms
+2023-11-30 12:51:20.479 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:20.479 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247 - 200 - text/html;+charset=utf-8 1.4702ms
+2023-11-30 12:51:20.659 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247
+2023-11-30 12:51:20.659 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:20.659 +05:00 [INF] Route matched with {action = "Registration", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(ElLibrary.ViewModels.RegistrationViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 12:51:20.659 +05:00 [INF] Происходит регистрация
+2023-11-30 12:51:20.659 +05:00 [WRN] Состояние модели не валидное
+2023-11-30 12:51:20.659 +05:00 [INF] Executing ViewResult, running view Registration.
+2023-11-30 12:51:20.660 +05:00 [INF] Executed ViewResult - view Registration executed in 0.5004ms.
+2023-11-30 12:51:20.660 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Registration (ElLibrary) in 0.906ms
+2023-11-30 12:51:20.660 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:20.660 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247 - 200 - text/html;+charset=utf-8 1.3205ms
+2023-11-30 12:51:20.842 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247
+2023-11-30 12:51:20.843 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:20.843 +05:00 [INF] Route matched with {action = "Registration", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(ElLibrary.ViewModels.RegistrationViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 12:51:20.843 +05:00 [INF] Происходит регистрация
+2023-11-30 12:51:20.843 +05:00 [WRN] Состояние модели не валидное
+2023-11-30 12:51:20.843 +05:00 [INF] Executing ViewResult, running view Registration.
+2023-11-30 12:51:20.843 +05:00 [INF] Executed ViewResult - view Registration executed in 0.4989ms.
+2023-11-30 12:51:20.844 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Registration (ElLibrary) in 0.8899ms
+2023-11-30 12:51:20.844 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:20.844 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247 - 200 - text/html;+charset=utf-8 1.2719ms
+2023-11-30 12:51:21.035 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247
+2023-11-30 12:51:21.036 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:21.036 +05:00 [INF] Route matched with {action = "Registration", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(ElLibrary.ViewModels.RegistrationViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 12:51:21.036 +05:00 [INF] Происходит регистрация
+2023-11-30 12:51:21.036 +05:00 [WRN] Состояние модели не валидное
+2023-11-30 12:51:21.036 +05:00 [INF] Executing ViewResult, running view Registration.
+2023-11-30 12:51:21.037 +05:00 [INF] Executed ViewResult - view Registration executed in 0.7362ms.
+2023-11-30 12:51:21.037 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Registration (ElLibrary) in 1.1762ms
+2023-11-30 12:51:21.037 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:21.037 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247 - 200 - text/html;+charset=utf-8 1.7356ms
+2023-11-30 12:51:21.248 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247
+2023-11-30 12:51:21.249 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:21.249 +05:00 [INF] Route matched with {action = "Registration", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(ElLibrary.ViewModels.RegistrationViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 12:51:21.249 +05:00 [INF] Происходит регистрация
+2023-11-30 12:51:21.249 +05:00 [WRN] Состояние модели не валидное
+2023-11-30 12:51:21.249 +05:00 [INF] Executing ViewResult, running view Registration.
+2023-11-30 12:51:21.250 +05:00 [INF] Executed ViewResult - view Registration executed in 0.5546ms.
+2023-11-30 12:51:21.250 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Registration (ElLibrary) in 1.1266ms
+2023-11-30 12:51:21.250 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 12:51:21.250 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 247 - 200 - text/html;+charset=utf-8 1.7680ms
+2023-11-30 12:51:32.638 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/User/Login - -
+2023-11-30 12:51:32.638 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 12:51:32.638 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 12:51:32.638 +05:00 [INF] Executing ViewResult, running view Login.
+2023-11-30 12:51:32.639 +05:00 [INF] Executed ViewResult - view Login executed in 1.0192ms.
+2023-11-30 12:51:32.639 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Login (ElLibrary) in 1.2409ms
+2023-11-30 12:51:32.639 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 12:51:32.639 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/User/Login - - - 200 - text/html;+charset=utf-8 1.6495ms
+2023-11-30 12:58:47.830 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/User/Login application/x-www-form-urlencoded 202
+2023-11-30 12:58:47.830 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 12:58:47.830 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ElLibrary.ViewModels.LoginViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 12:58:47.830 +05:00 [INF] Происходит вход
+2023-11-30 12:58:47.830 +05:00 [WRN] Состояние модели не валидное
+2023-11-30 12:58:47.831 +05:00 [INF] Executing ViewResult, running view Login.
+2023-11-30 12:58:47.831 +05:00 [INF] Executed ViewResult - view Login executed in 0.7489ms.
+2023-11-30 12:58:47.831 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Login (ElLibrary) in 1.1155ms
+2023-11-30 12:58:47.831 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 12:58:47.832 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/User/Login application/x-www-form-urlencoded 202 - 200 - text/html;+charset=utf-8 1.5467ms
+2023-11-30 12:59:57.042 +05:00 [INF] Application is shutting down...
+2023-11-30 13:18:29.438 +05:00 [INF] Start app
+2023-11-30 13:18:30.627 +05:00 [WRN] Using an in-memory repository. Keys will not be persisted to storage.
+2023-11-30 13:18:30.628 +05:00 [WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2023-11-30 13:18:30.635 +05:00 [INF] Creating key {4e1a750a-8ac0-492f-8c0e-13f7e2cd38be} with creation date 2023-11-30 08:18:30Z, activation date 2023-11-30 08:18:30Z, and expiration date 2024-02-28 08:18:30Z.
+2023-11-30 13:18:30.640 +05:00 [WRN] No XML encryptor configured. Key {4e1a750a-8ac0-492f-8c0e-13f7e2cd38be} may be persisted to storage in unencrypted form.
+2023-11-30 13:18:30.654 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-30 13:18:30.654 +05:00 [INF] Hosting environment: Production
+2023-11-30 13:18:30.654 +05:00 [INF] Content root path: C:\Users\st310-09\Desktop\ElLibrary\bin\Release\net6.0\publish\
+2023-11-30 13:18:30.672 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/User/Login application/x-www-form-urlencoded 202
+2023-11-30 13:18:30.701 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 13:18:30.720 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ElLibrary.ViewModels.LoginViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 13:18:30.746 +05:00 [INF] Происходит вход
+2023-11-30 13:18:30.746 +05:00 [WRN] Состояние модели не валидное
+2023-11-30 13:18:30.753 +05:00 [INF] Executing ViewResult, running view Login.
+2023-11-30 13:18:30.805 +05:00 [ERR] An exception was thrown while deserializing the token.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The antiforgery token could not be decrypted.
+ ---> System.Security.Cryptography.CryptographicException: The key {4ef8cff4-5f2f-4126-b31e-da7fbcca2712} was not found in the key ring. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.GetCookieTokenDoesNotThrow(HttpContext httpContext)
+2023-11-30 13:18:30.844 +05:00 [INF] Executed ViewResult - view Login executed in 88.5863ms.
+2023-11-30 13:18:30.845 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Login (ElLibrary) in 124.7436ms
+2023-11-30 13:18:30.845 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 13:18:30.849 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/User/Login application/x-www-form-urlencoded 202 - 200 - text/html;+charset=utf-8 179.2890ms
+2023-11-30 13:18:43.600 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/User/Login application/x-www-form-urlencoded 216
+2023-11-30 13:18:43.602 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 13:18:43.603 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ElLibrary.ViewModels.LoginViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 13:18:43.606 +05:00 [INF] Происходит вход
+2023-11-30 13:18:43.702 +05:00 [INF] Executed DbCommand (22ms) [Parameters=[@__username_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Fullname], [u].[Login], [u].[Password], [u].[Photo], [u].[RoleId], [u].[Salt]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__username_0
+2023-11-30 13:18:43.711 +05:00 [WRN] Неверные данные дя входа
+2023-11-30 13:18:43.713 +05:00 [INF] Executing ViewResult, running view Login.
+2023-11-30 13:18:43.715 +05:00 [INF] Executed ViewResult - view Login executed in 2.8891ms.
+2023-11-30 13:18:43.716 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Login (ElLibrary) in 113.2274ms
+2023-11-30 13:18:43.716 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 13:18:43.719 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/User/Login application/x-www-form-urlencoded 216 - 200 - text/html;+charset=utf-8 119.0163ms
+2023-11-30 13:18:44.596 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/User/Login application/x-www-form-urlencoded 206
+2023-11-30 13:18:44.597 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 13:18:44.597 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ElLibrary.ViewModels.LoginViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 13:18:44.600 +05:00 [INF] Происходит вход
+2023-11-30 13:18:44.601 +05:00 [WRN] Состояние модели не валидное
+2023-11-30 13:18:44.601 +05:00 [INF] Executing ViewResult, running view Login.
+2023-11-30 13:18:44.602 +05:00 [INF] Executed ViewResult - view Login executed in 1.4238ms.
+2023-11-30 13:18:44.602 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Login (ElLibrary) in 5.0118ms
+2023-11-30 13:18:44.602 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 13:18:44.602 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/User/Login application/x-www-form-urlencoded 206 - 200 - text/html;+charset=utf-8 6.7258ms
+2023-11-30 13:18:44.911 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/User/Login application/x-www-form-urlencoded 206
+2023-11-30 13:18:44.911 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 13:18:44.911 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ElLibrary.ViewModels.LoginViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 13:18:44.911 +05:00 [INF] Происходит вход
+2023-11-30 13:18:44.911 +05:00 [WRN] Состояние модели не валидное
+2023-11-30 13:18:44.911 +05:00 [INF] Executing ViewResult, running view Login.
+2023-11-30 13:18:44.912 +05:00 [INF] Executed ViewResult - view Login executed in 0.7357ms.
+2023-11-30 13:18:44.912 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Login (ElLibrary) in 1.219ms
+2023-11-30 13:18:44.912 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 13:18:44.912 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/User/Login application/x-www-form-urlencoded 206 - 200 - text/html;+charset=utf-8 1.7347ms
+2023-11-30 13:18:47.280 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/User/Registration - -
+2023-11-30 13:18:47.280 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 13:18:47.281 +05:00 [INF] Route matched with {action = "Registration", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Registration() on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 13:18:47.282 +05:00 [INF] Executing ViewResult, running view Registration.
+2023-11-30 13:18:47.295 +05:00 [INF] Executed ViewResult - view Registration executed in 13.0362ms.
+2023-11-30 13:18:47.295 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Registration (ElLibrary) in 13.4274ms
+2023-11-30 13:18:47.295 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 13:18:47.295 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/User/Registration - - - 200 - text/html;+charset=utf-8 15.1848ms
+2023-11-30 13:19:10.068 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 262
+2023-11-30 13:19:10.069 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 13:19:10.072 +05:00 [INF] Route matched with {action = "Registration", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(ElLibrary.ViewModels.RegistrationViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 13:19:10.074 +05:00 [INF] Происходит регистрация
+2023-11-30 13:19:10.111 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__username_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Fullname], [u].[Login], [u].[Password], [u].[Photo], [u].[RoleId], [u].[Salt]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__username_0
+2023-11-30 13:19:10.113 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__username_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Fullname], [u].[Login], [u].[Password], [u].[Photo], [u].[RoleId], [u].[Salt]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__username_0
+2023-11-30 13:19:10.120 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Name]
+FROM [Roles] AS [r]
+WHERE [r].[Name] = N'client'
+2023-11-30 13:19:10.248 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (Size = 250), @p3='?' (Size = 250), @p4='?' (DbType = Int32), @p5='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Fullname], [Login], [Password], [Photo], [RoleId], [Salt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2023-11-30 13:19:10.269 +05:00 [INF] Executing RedirectResult, redirecting to /User/RegistrationSuccess.
+2023-11-30 13:19:10.269 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Registration (ElLibrary) in 196.2613ms
+2023-11-30 13:19:10.269 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 13:19:10.269 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 262 - 302 - - 200.6849ms
+2023-11-30 13:19:10.271 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/User/RegistrationSuccess - -
+2023-11-30 13:19:10.271 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.RegistrationSuccess (ElLibrary)'
+2023-11-30 13:19:10.272 +05:00 [INF] Route matched with {action = "RegistrationSuccess", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RegistrationSuccess() on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 13:19:10.272 +05:00 [INF] Регистрация успешна!
+2023-11-30 13:19:10.273 +05:00 [INF] Executing ViewResult, running view RegistrationSuccess.
+2023-11-30 13:19:10.274 +05:00 [INF] Executed ViewResult - view RegistrationSuccess executed in 1.9665ms.
+2023-11-30 13:19:10.274 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.RegistrationSuccess (ElLibrary) in 2.2381ms
+2023-11-30 13:19:10.275 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.RegistrationSuccess (ElLibrary)'
+2023-11-30 13:19:10.275 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/User/RegistrationSuccess - - - 200 - text/html;+charset=utf-8 3.2261ms
+2023-11-30 13:19:14.788 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/user/login - -
+2023-11-30 13:19:14.788 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 13:19:14.789 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 13:19:14.790 +05:00 [INF] Executing ViewResult, running view Login.
+2023-11-30 13:19:14.790 +05:00 [INF] Executed ViewResult - view Login executed in 0.5695ms.
+2023-11-30 13:19:14.790 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Login (ElLibrary) in 0.7922ms
+2023-11-30 13:19:14.790 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 13:19:14.790 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/user/login - - - 200 - text/html;+charset=utf-8 2.0282ms
+2023-11-30 13:19:24.004 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/user/login application/x-www-form-urlencoded 218
+2023-11-30 13:19:24.004 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 13:19:24.005 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ElLibrary.ViewModels.LoginViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 13:19:24.005 +05:00 [INF] Происходит вход
+2023-11-30 13:19:24.014 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__username_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Fullname], [u].[Login], [u].[Password], [u].[Photo], [u].[RoleId], [u].[Salt]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__username_0
+2023-11-30 13:19:24.017 +05:00 [INF] AuthenticationScheme: Cookies signed in.
+2023-11-30 13:19:24.017 +05:00 [INF] Вход успешен
+2023-11-30 13:19:24.018 +05:00 [INF] Executing RedirectResult, redirecting to /.
+2023-11-30 13:19:24.018 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Login (ElLibrary) in 13.2212ms
+2023-11-30 13:19:24.018 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 13:19:24.018 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/user/login application/x-www-form-urlencoded 218 - 302 - - 13.8554ms
+2023-11-30 13:19:24.020 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/ - -
+2023-11-30 13:19:24.023 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.BooksController.Index (ElLibrary)'
+2023-11-30 13:19:24.026 +05:00 [INF] Route matched with {action = "Index", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, Int32) on controller ElLibrary.Controllers.BooksController (ElLibrary).
+2023-11-30 13:19:24.039 +05:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[Author], [b].[CategoryId], [b].[Description], [b].[Filename], [b].[ImageUrl], [b].[PagesCount], [b].[Title]
+FROM [Books] AS [b]
+2023-11-30 13:19:24.054 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-11-30 13:19:24.064 +05:00 [INF] Executing ViewResult, running view Index.
+2023-11-30 13:19:24.080 +05:00 [INF] Executed ViewResult - view Index executed in 16.3745ms.
+2023-11-30 13:19:24.080 +05:00 [INF] Executed action ElLibrary.Controllers.BooksController.Index (ElLibrary) in 53.9652ms
+2023-11-30 13:19:24.080 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.BooksController.Index (ElLibrary)'
+2023-11-30 13:19:24.081 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/ - - - 200 - text/html;+charset=utf-8 61.0867ms
+2023-11-30 13:19:24.086 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/styles/main.css - -
+2023-11-30 13:19:24.086 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/styles/book.css - -
+2023-11-30 13:19:24.087 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/images/books/book1.png - -
+2023-11-30 13:19:24.087 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/images/books/book4.png - -
+2023-11-30 13:19:24.088 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/images/books/book2.png - -
+2023-11-30 13:19:24.088 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/images/books/book3.png - -
+2023-11-30 13:19:24.098 +05:00 [INF] Sending file. Request path: '/styles/book.css'. Physical path: 'C:\Users\st310-09\Desktop\ElLibrary\bin\Release\net6.0\publish\wwwroot\styles\book.css'
+2023-11-30 13:19:24.098 +05:00 [INF] Sending file. Request path: '/styles/main.css'. Physical path: 'C:\Users\st310-09\Desktop\ElLibrary\bin\Release\net6.0\publish\wwwroot\styles\main.css'
+2023-11-30 13:19:24.099 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/styles/main.css - - - 200 1215 text/css 12.3865ms
+2023-11-30 13:19:24.099 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/styles/book.css - - - 200 2737 text/css 12.3918ms
+2023-11-30 13:19:24.099 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/images/books/book5.png - -
+2023-11-30 13:19:24.105 +05:00 [INF] Sending file. Request path: '/images/books/book2.png'. Physical path: 'C:\Users\st310-09\Desktop\ElLibrary\bin\Release\net6.0\publish\wwwroot\images\books\book2.png'
+2023-11-30 13:19:24.106 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/images/books/book2.png - - - 200 302026 image/png 17.8284ms
+2023-11-30 13:19:24.117 +05:00 [INF] Sending file. Request path: '/images/books/book3.png'. Physical path: 'C:\Users\st310-09\Desktop\ElLibrary\bin\Release\net6.0\publish\wwwroot\images\books\book3.png'
+2023-11-30 13:19:24.119 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/images/books/book3.png - - - 200 545444 image/png 30.2011ms
+2023-11-30 13:19:24.120 +05:00 [INF] Sending file. Request path: '/images/books/book1.png'. Physical path: 'C:\Users\st310-09\Desktop\ElLibrary\bin\Release\net6.0\publish\wwwroot\images\books\book1.png'
+2023-11-30 13:19:24.122 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/images/books/book1.png - - - 200 582721 image/png 34.9113ms
+2023-11-30 13:19:24.141 +05:00 [INF] Sending file. Request path: '/images/books/book5.png'. Physical path: 'C:\Users\st310-09\Desktop\ElLibrary\bin\Release\net6.0\publish\wwwroot\images\books\book5.png'
+2023-11-30 13:19:24.143 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/images/books/book5.png - - - 200 677670 image/png 43.6242ms
+2023-11-30 13:19:24.148 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/images/banner.png - -
+2023-11-30 13:19:24.150 +05:00 [INF] Sending file. Request path: '/images/books/book4.png'. Physical path: 'C:\Users\st310-09\Desktop\ElLibrary\bin\Release\net6.0\publish\wwwroot\images\books\book4.png'
+2023-11-30 13:19:24.153 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/images/books/book4.png - - - 200 1119719 image/png 66.1169ms
+2023-11-30 13:19:24.251 +05:00 [INF] Sending file. Request path: '/images/banner.png'. Physical path: 'C:\Users\st310-09\Desktop\ElLibrary\bin\Release\net6.0\publish\wwwroot\images\banner.png'
+2023-11-30 13:19:24.257 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/images/banner.png - - - 200 6405661 image/png 108.6794ms
+2023-11-30 13:19:57.081 +05:00 [INF] Application is shutting down...
+2023-11-30 13:22:16.881 +05:00 [INF] Start app
+2023-11-30 13:22:18.243 +05:00 [WRN] Using an in-memory repository. Keys will not be persisted to storage.
+2023-11-30 13:22:18.244 +05:00 [WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2023-11-30 13:22:18.251 +05:00 [INF] Creating key {b83c900b-592c-4727-a7f7-87e397193192} with creation date 2023-11-30 08:22:18Z, activation date 2023-11-30 08:22:18Z, and expiration date 2024-02-28 08:22:18Z.
+2023-11-30 13:22:18.256 +05:00 [WRN] No XML encryptor configured. Key {b83c900b-592c-4727-a7f7-87e397193192} may be persisted to storage in unencrypted form.
+2023-11-30 13:22:18.269 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-30 13:22:18.269 +05:00 [INF] Hosting environment: Production
+2023-11-30 13:22:18.269 +05:00 [INF] Content root path: C:\Users\st310-09\Desktop\ElLibrary\bin\Release\net6.0\publish\
+2023-11-30 13:22:18.285 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/User/Logout - -
+2023-11-30 13:22:18.312 +05:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2023-11-30 13:22:18.317 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Logout (ElLibrary)'
+2023-11-30 13:22:18.329 +05:00 [INF] Route matched with {action = "Logout", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 13:22:18.339 +05:00 [INF] Выход из системы
+2023-11-30 13:22:18.342 +05:00 [INF] AuthenticationScheme: Cookies signed out.
+2023-11-30 13:22:18.350 +05:00 [INF] Executing RedirectResult, redirecting to /User/Login.
+2023-11-30 13:22:18.353 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Logout (ElLibrary) in 20.8991ms
+2023-11-30 13:22:18.354 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Logout (ElLibrary)'
+2023-11-30 13:22:18.360 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/User/Login - -
+2023-11-30 13:22:18.362 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/User/Logout - - - 302 - - 79.0778ms
+2023-11-30 13:22:18.362 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 13:22:18.363 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 13:22:18.372 +05:00 [INF] Executing ViewResult, running view Login.
+2023-11-30 13:22:18.419 +05:00 [ERR] An exception was thrown while deserializing the token.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The antiforgery token could not be decrypted.
+ ---> System.Security.Cryptography.CryptographicException: The key {4e1a750a-8ac0-492f-8c0e-13f7e2cd38be} was not found in the key ring. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.GetCookieTokenDoesNotThrow(HttpContext httpContext)
+2023-11-30 13:22:18.442 +05:00 [INF] Executed ViewResult - view Login executed in 72.3079ms.
+2023-11-30 13:22:18.442 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Login (ElLibrary) in 78.8347ms
+2023-11-30 13:22:18.442 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 13:22:18.444 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/User/Login - - - 200 - text/html;+charset=utf-8 83.6308ms
+2023-11-30 13:22:19.899 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/User/Registration - -
+2023-11-30 13:22:19.900 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 13:22:19.901 +05:00 [INF] Route matched with {action = "Registration", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Registration() on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 13:22:19.905 +05:00 [INF] Executing ViewResult, running view Registration.
+2023-11-30 13:22:19.919 +05:00 [INF] Executed ViewResult - view Registration executed in 14.76ms.
+2023-11-30 13:22:19.919 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Registration (ElLibrary) in 18.1378ms
+2023-11-30 13:22:19.919 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 13:22:19.919 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/User/Registration - - - 200 - text/html;+charset=utf-8 20.0933ms
+2023-11-30 13:23:08.078 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 268
+2023-11-30 13:23:08.078 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 13:23:08.088 +05:00 [INF] Route matched with {action = "Registration", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(ElLibrary.ViewModels.RegistrationViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 13:23:08.101 +05:00 [INF] Происходит регистрация
+2023-11-30 13:23:08.208 +05:00 [INF] Executed DbCommand (35ms) [Parameters=[@__username_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Fullname], [u].[Login], [u].[Password], [u].[Photo], [u].[RoleId], [u].[Salt]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__username_0
+2023-11-30 13:23:08.220 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__username_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Fullname], [u].[Login], [u].[Password], [u].[Photo], [u].[RoleId], [u].[Salt]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__username_0
+2023-11-30 13:23:08.228 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Name]
+FROM [Roles] AS [r]
+WHERE [r].[Name] = N'client'
+2023-11-30 13:23:08.357 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (Size = 250), @p3='?' (Size = 250), @p4='?' (DbType = Int32), @p5='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Fullname], [Login], [Password], [Photo], [RoleId], [Salt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2023-11-30 13:23:08.378 +05:00 [INF] Executing RedirectResult, redirecting to /User/RegistrationSuccess.
+2023-11-30 13:23:08.379 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Registration (ElLibrary) in 290.7537ms
+2023-11-30 13:23:08.379 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Registration (ElLibrary)'
+2023-11-30 13:23:08.382 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/User/Registration application/x-www-form-urlencoded 268 - 302 - - 304.6865ms
+2023-11-30 13:23:08.383 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/User/RegistrationSuccess - -
+2023-11-30 13:23:08.384 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.RegistrationSuccess (ElLibrary)'
+2023-11-30 13:23:08.385 +05:00 [INF] Route matched with {action = "RegistrationSuccess", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RegistrationSuccess() on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 13:23:08.385 +05:00 [INF] Регистрация успешна!
+2023-11-30 13:23:08.385 +05:00 [INF] Executing ViewResult, running view RegistrationSuccess.
+2023-11-30 13:23:08.387 +05:00 [INF] Executed ViewResult - view RegistrationSuccess executed in 2.2455ms.
+2023-11-30 13:23:08.387 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.RegistrationSuccess (ElLibrary) in 2.5454ms
+2023-11-30 13:23:08.387 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.RegistrationSuccess (ElLibrary)'
+2023-11-30 13:23:08.387 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/User/RegistrationSuccess - - - 200 - text/html;+charset=utf-8 3.8670ms
+2023-11-30 13:23:12.918 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/user/login - -
+2023-11-30 13:23:12.918 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 13:23:12.918 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 13:23:12.918 +05:00 [INF] Executing ViewResult, running view Login.
+2023-11-30 13:23:12.919 +05:00 [INF] Executed ViewResult - view Login executed in 1.0041ms.
+2023-11-30 13:23:12.919 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Login (ElLibrary) in 1.2252ms
+2023-11-30 13:23:12.919 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 13:23:12.919 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/user/login - - - 200 - text/html;+charset=utf-8 1.8889ms
+2023-11-30 13:23:20.094 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:32465/user/login application/x-www-form-urlencoded 222
+2023-11-30 13:23:20.094 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 13:23:20.097 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ElLibrary.ViewModels.LoginViewModel) on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 13:23:20.099 +05:00 [INF] Происходит вход
+2023-11-30 13:23:20.133 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__username_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Fullname], [u].[Login], [u].[Password], [u].[Photo], [u].[RoleId], [u].[Salt]
+FROM [Users] AS [u]
+WHERE [u].[Login] = @__username_0
+2023-11-30 13:23:20.135 +05:00 [INF] AuthenticationScheme: Cookies signed in.
+2023-11-30 13:23:20.135 +05:00 [INF] Вход успешен
+2023-11-30 13:23:20.136 +05:00 [INF] Executing RedirectResult, redirecting to /.
+2023-11-30 13:23:20.136 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Login (ElLibrary) in 38.8373ms
+2023-11-30 13:23:20.136 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 13:23:20.136 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:32465/user/login application/x-www-form-urlencoded 222 - 302 - - 42.4259ms
+2023-11-30 13:23:20.138 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/ - -
+2023-11-30 13:23:20.141 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.BooksController.Index (ElLibrary)'
+2023-11-30 13:23:20.145 +05:00 [INF] Route matched with {action = "Index", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, Int32) on controller ElLibrary.Controllers.BooksController (ElLibrary).
+2023-11-30 13:23:20.160 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[Author], [b].[CategoryId], [b].[Description], [b].[Filename], [b].[ImageUrl], [b].[PagesCount], [b].[Title]
+FROM [Books] AS [b]
+2023-11-30 13:23:20.173 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-11-30 13:23:20.183 +05:00 [INF] Executing ViewResult, running view Index.
+2023-11-30 13:23:20.201 +05:00 [INF] Executed ViewResult - view Index executed in 17.7986ms.
+2023-11-30 13:23:20.201 +05:00 [INF] Executed action ElLibrary.Controllers.BooksController.Index (ElLibrary) in 55.7144ms
+2023-11-30 13:23:20.201 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.BooksController.Index (ElLibrary)'
+2023-11-30 13:23:20.202 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/ - - - 200 - text/html;+charset=utf-8 63.3118ms
+2023-11-30 13:29:57.121 +05:00 [INF] Application is shutting down...
+2023-11-30 13:30:30.592 +05:00 [INF] Start app
+2023-11-30 13:30:31.902 +05:00 [WRN] Using an in-memory repository. Keys will not be persisted to storage.
+2023-11-30 13:30:31.903 +05:00 [WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2023-11-30 13:30:31.909 +05:00 [INF] Creating key {175e19b4-3464-4da0-9880-56684c602a98} with creation date 2023-11-30 08:30:31Z, activation date 2023-11-30 08:30:31Z, and expiration date 2024-02-28 08:30:31Z.
+2023-11-30 13:30:31.915 +05:00 [WRN] No XML encryptor configured. Key {175e19b4-3464-4da0-9880-56684c602a98} may be persisted to storage in unencrypted form.
+2023-11-30 13:30:31.927 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-30 13:30:31.928 +05:00 [INF] Hosting environment: Production
+2023-11-30 13:30:31.928 +05:00 [INF] Content root path: C:\Users\st310-09\Desktop\ElLibrary\bin\Release\net6.0\publish\
+2023-11-30 13:30:31.944 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/ - -
+2023-11-30 13:30:31.970 +05:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2023-11-30 13:30:31.976 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-11-30 13:30:31.980 +05:00 [INF] AuthenticationScheme: Cookies was challenged.
+2023-11-30 13:30:31.986 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:32465/User/Login?ReturnUrl=%2F - -
+2023-11-30 13:30:31.987 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/ - - - 302 - - 45.4562ms
+2023-11-30 13:30:31.989 +05:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2023-11-30 13:30:31.991 +05:00 [INF] Executing endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 13:30:32.000 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ElLibrary.Controllers.UserController (ElLibrary).
+2023-11-30 13:30:32.016 +05:00 [INF] Executing ViewResult, running view Login.
+2023-11-30 13:30:32.064 +05:00 [ERR] An exception was thrown while deserializing the token.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The antiforgery token could not be decrypted.
+ ---> System.Security.Cryptography.CryptographicException: The key {b83c900b-592c-4727-a7f7-87e397193192} was not found in the key ring. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.GetCookieTokenDoesNotThrow(HttpContext httpContext)
+2023-11-30 13:30:32.097 +05:00 [INF] Executed ViewResult - view Login executed in 78.9917ms.
+2023-11-30 13:30:32.098 +05:00 [INF] Executed action ElLibrary.Controllers.UserController.Login (ElLibrary) in 97.7383ms
+2023-11-30 13:30:32.098 +05:00 [INF] Executed endpoint 'ElLibrary.Controllers.UserController.Login (ElLibrary)'
+2023-11-30 13:30:32.100 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:32465/User/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 114.2128ms
+2023-11-30 13:39:57.144 +05:00 [INF] Application is shutting down...

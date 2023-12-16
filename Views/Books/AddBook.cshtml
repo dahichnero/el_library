@@ -1,0 +1,44 @@
+﻿@using ElLibrary.Domain.Entities
+@using ElLibrary.ViewModels;
+@model BookViewModel
+<link rel="stylesheet" href="~/styles/add.css" type="text/css" runat="server" media="screen" />
+<div class="book-form">
+    <form method="post" enctype="multipart/form-data">
+        <h1>Добавление книги</h1>
+        <div class="form-element">
+            <label asp-for="Title"></label>
+            <input asp-for="Title"/>
+        </div>
+        <div class="form-element">
+            <label asp-for="Author"></label>
+            <input asp-for="Author" />
+        </div>
+        <div class="form-element">
+            <label asp-for="PageCount"></label>
+            <input asp-for="PageCount" />
+        </div>
+        <div class="form-element">
+            <label asp-for="CategoryId"></label>
+            <select asp-for="CategoryId" asp-items="Model.Categories"></select>
+        </div>
+        <div class="form-element">
+            <label asp-for="Photo"></label>
+            <input asp-for="Photo" accept=".png"/>
+        </div>
+        <div class="form-element">
+            <label asp-for="File"></label>
+            <input asp-for="File" accept=".pdf"/>
+        </div>
+        <div asp-validation-summary="All" class="error-messages"></div>
+        <div class="buttons">
+            <input type="button" id="backbutton" value="Назад"/>
+            <input type="submit" value="Сохранить" />
+        </div>
+    </form>
+</div>
+<script>
+    let backbutton = document.querySelector('#backbutton');
+    backbutton.onclick = () => {
+        window.location = "/books/index";
+    };
+</script>
